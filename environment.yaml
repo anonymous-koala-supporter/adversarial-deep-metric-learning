@@ -1,0 +1,18 @@
+channels:
+  - metric-learning
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - defaults::cudatoolkit=10.1
+  - pytorch::pytorch=1.7.0
+  - pytorch::torchvision>=0.8
+  - pytorch/label/nightly::faiss-gpu=v1.6.4
+  - pandas=1.0
+  - scikit-image
+  - metric-learning::pytorch-metric-learning=0.9.94
+  - conda-forge::pytorch-lightning==1.0.5
+  - pip
+  - pip:
+    - pretrainedmodels>=0.7.4

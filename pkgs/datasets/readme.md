@@ -1,0 +1,3 @@
+# Datasets
+
+The VisualPhish dataset is available on inquiry to [Sahar Abdelnabi](mailto:sahar.abdelnabi@cispa.saarland). Importantly, this dataset consist of a training set of web sites (from trusted sources: google.com, airbnb.com, facebook.com, etc.), while the test set contains either legit visually different websites or phishing websites that attempt to be visually similar to the trusted sources. Inference (detect if a website is phishing) is conducted using the train set, e.g. if a website is visually similar to one in list of trusted websites while coming from a different origin, it is considered phishing. Using the `--infer-from-train` is thereby required for evaluation.
